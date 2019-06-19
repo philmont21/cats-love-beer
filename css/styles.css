@@ -4,13 +4,14 @@
 /*  Base Layout  */
 body, html {
     height: 100%;
-    font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;
+
 
 }
 
 .banner {
        background-image: url("/img/beerwall.jpeg");
-       height: 35%;
+	   height: 350px;
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -23,6 +24,16 @@ body, html {
     
 
   }
+  .main-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+
+  }
+li {
+	display: inline-block;
+	
+}
 
 
 
