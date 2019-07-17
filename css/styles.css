@@ -44,9 +44,14 @@ li {
 	padding: 2em;
 
 }
-cat-pics {
+.cat {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	
+
 }
+
 
 /*  Media Queries  */
 
