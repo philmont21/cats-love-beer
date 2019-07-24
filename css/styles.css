@@ -1,7 +1,7 @@
 
 
 
-/*  Base Layout  */
+/*  Layout  */
 body {
     height: 100%;
 	font-family: 'Dancing Script', cursive;
@@ -52,6 +52,16 @@ li {
 
 }
 
+.row {
+	display: flex;
+  }
+  
+.column {
+	display: flex;
+	flex: 33.33%;
+	padding: 5px;
+  }
+
 
 /*  Media Queries  */
 
@@ -59,7 +69,6 @@ li {
 	.flex-container {
 		flex-wrap: wrap;
 		
-
 	}
 	.cat {
 		max-width: 25%;
@@ -67,8 +76,9 @@ li {
 	}
 }
 
+@media (max-width: 769px) {
+	.row {
+	  flex-wrap: wrap;
 
-@media (min-width: 1025px) {
-	
-
-}
+	}
+  }
