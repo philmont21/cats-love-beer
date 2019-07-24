@@ -1,4 +1,4 @@
-// Although this is not exactly a fool-proof method of age verification, the redirect is always fun ;) //
+// While this is not exactly a fool-proof method of age verification, the redirect is always fun ;) //
 
 var agePrompt=prompt("How Old Are You??");
  
