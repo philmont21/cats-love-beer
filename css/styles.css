@@ -10,12 +10,13 @@ body {
 }
 
 .banner {
-       background-image: url("../img/beerwall.jpeg");
+	   background-image: url("../img/beerwall.jpeg");
 	   height: 400px;
        background-position: center;
        background-repeat: no-repeat;
-       background-size: cover;
-       
+	   background-size: cover;
+	   
+      
 }
 .banner-text {
     text-align: center;
