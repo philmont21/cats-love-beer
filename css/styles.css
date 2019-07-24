@@ -1,7 +1,7 @@
 
 
 
-/*  Layout  */
+/*  Basic Page Layout  */
 body {
     height: 100%;
 	font-family: 'Dancing Script', cursive;
@@ -51,7 +51,7 @@ li {
 	
 
 }
-
+/*  CSS for three images on index page  */
 .row {
 	display: flex;
   }
@@ -59,7 +59,7 @@ li {
 .column {
 	display: flex;
 	flex: 33.33%;
-	padding: 5px;
+	padding: 15px;
   }
 
 
